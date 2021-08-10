@@ -1,2 +1,4 @@
-package com.main.main.service;public class MainMainService {
+package com.main.main.service;
+
+public class MainMainService {
 }

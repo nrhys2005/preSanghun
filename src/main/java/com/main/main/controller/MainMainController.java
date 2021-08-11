@@ -6,9 +6,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class MainMainController {
-
+    MainMainService mainMainService;
     @GetMapping("")
     public void mainView(){
         return ;
     }
+
+    @GetMapping("list")
+    public void mainList(){
+        //mainMainService.
+        return ;
+    }
+
 }
